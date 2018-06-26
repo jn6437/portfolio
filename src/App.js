@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import GameBox from './components/GameBox'
+import GameBox from './components/game_container/GameBox'
+import Player from './components/player'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           To get started hi , edit <code>src/App.js</code> and save to reload.
         </p>
         <GameBox />
+        <Player />
       </div>
     );
   }
